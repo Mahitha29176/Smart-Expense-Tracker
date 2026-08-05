@@ -12,6 +12,18 @@ expense-tracker/
 └── frontend/    React (Vite) client
 ```
 
+## Features
+- User Authentication (JWT)
+- Add/Edit/Delete Income
+- Add/Edit/Delete Expenses
+- Expense Categories
+- Dashboard Charts
+- Monthly reports
+- User Profile
+- Admin Dashboard
+- User Management
+- Responsive Design
+
 ## Prerequisites
 
 - Node.js v18+ installed
@@ -92,3 +104,5 @@ The app will start on **http://localhost:5173**.
 - **"MongoDB Connected" doesn't appear / connection error:** Make sure MongoDB is running (`mongod`) and `MONGO_URI` in `backend/.env` is correct.
 - **CORS errors:** Confirm `CLIENT_URL` in `backend/.env` matches the frontend URL (default `http://localhost:5173`).
 - **401 errors after login:** Make sure `JWT_SECRET` is set in `backend/.env` and the backend was restarted after editing `.env`.
+
+
